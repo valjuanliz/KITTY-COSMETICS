@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilosindex.css">
+    <link rel="stylesheet" href="Productos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<header>
+
+    <div class="logo">
+        <img src="img/Captura de pantalla (53).png" alt="" width="75px" height="70px">
+    </div>
+
+    <div class="titulo">
+        <h1 class="textoytitulo">WELCOME</h1>
+    
+    </div>
+    
+    <div class="boton">
+        <a href="index.html" class="vinculo">Salir</a>
+    </div>
+
+</header>
+
+<nav>
+    <ul>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="">Clientes</a></li>
+        <li><a href="">Ventas</a></li>
+        <li><a href="">Reportes</a></li>
+    </ul>
+</nav>
+
+<section class="principalproductos">
+
+    <section class="CAJASUPERIOR">
+        <input type="submit">
+    </section>
+
+                
+
+    <section class="Productos">
+
+        <div class="cajas">
+            <label for="">Fecha de registro</label>
+            <input type="date">
+        </div>
+        <div class="cajas">
+            <label>Categoria:</label>
+            <br>
+            <select class="seleccione">
+            <option>Seleccione ...</option>
+            <option>Perifericos</option>
+            <option>Memorias</option>
+            <option>Portatiles</option>
+            <option>Accesorios</option>
+        </select>
+        </div>
+        <div class="cajas">
+            <label>Precio</label>
+            <br>
+            <input type="number" placeholder="Digite el Producto" class="caja">
+        </div>
+
+        <div class="cajas">
+            <input type="radio" name="tipo" class="radio">
+            <label>Delicado</label><br>
+            <input type="radio" name="tipo" class="radio">
+            <label>Fuerte</label>
+        </div>
+
+        <div class="cajas">
+            <input type="checkbox">
+            <label>Venta en tienda</label>
+            <input type="checkbox">
+            <label>Venta en linea</label><br>
+        </div>
+
+        <div class="cajas">
+            <label>Foto</label>
+
+            <input type="file" class="foto">
+        </div>
+
+        <div class="cajas">
+            <label>Nivel Venta</label>
+            <br>
+            <input type="range" class="nivel"/>
+        </div>
+
+        <div class="cajas">
+            <label for="">Color</label>
+            <br>
+            <input type="color" name="color" id="color" class="color" />
+        </div>
+
+        <div class="cajas">
+            <textarea name="message" rows="4" cols="27" placeholder="Descepcion de productos"></textarea>
+        </div>
+    </section>

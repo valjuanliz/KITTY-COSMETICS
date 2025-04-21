@@ -1,0 +1,28 @@
+.principalPortafolio{
+    background-color: rgb(166, 191, 212);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+
+}
+.Portafolio{
+    background-color: rgb(228, 132, 228);
+    width: 750px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+img:hover{
+    width: 230px;
+    height: 260px;
+
+}

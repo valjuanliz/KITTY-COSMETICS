@@ -1,0 +1,63 @@
+.PrincipalAcerca{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    content: wrap;
+    animation-name: fondo;
+    animation-duration: 5seg;
+    animation-iteration-count: infinite;
+}
+@keyframes fondo{
+    0%{
+        background: linear-gradient(20deg, pink, black);
+    }
+    100%{
+        background: linear-gradient(20deg, black, pink);
+        position: absolute;
+    }
+}
+.FOTO{
+    width: 350px;
+    height: 400px;
+    border: 1px solid white;
+    opacity: 40%;
+}
+.FOTO:hover{
+    opacity: 100%;
+}
+.contenidoTexto{
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
+    text-align: center;
+    opacity: 55%;
+}
+.contenidoTexto:hover{
+    opacity: 100%;
+}
+.nombre{
+    font-size: 20px;
+    color: blueviolet;
+    font-family: sans-serif;
+    margin-top: 40px;
+    padding: 10px;
+}
+.direccion{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+.telefono{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding: 10px;
+}
+.correo{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    padding: 10px;
+}
